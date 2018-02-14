@@ -1,0 +1,29 @@
+{
+  "name": "enzyme-matcher-ts",
+  "version": "1.0.0",
+  "description": "Jest Matcher for Enzyme with TypeScript",
+  "main": "index.js",
+  "repository": "git@github.com:Sly321/enzyme-matcher-ts.git",
+  "author": "Sven Liebig <liebigsv@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.3.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "@types/jest": "^22.1.2",
+    "@types/react": "^16.0.38"
+  },
+  "scripts": {
+    "test": "tsc && jest"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setupTests.js"
+  }
+}
